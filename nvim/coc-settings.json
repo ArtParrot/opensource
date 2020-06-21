@@ -1,0 +1,39 @@
+{  
+    "languageserver": {
+        "ccls": {
+            "command": "ccls",
+            "filetypes": ["c", "cpp", "objc", "objcpp"],
+            "rootPatterns": [".ccls", "compile_commands.json", ".git/", ".hg/"],
+            "initializationOptions": {
+                "cache": {
+                    "directory": "/tmp/ccls"
+                }
+            }
+        }
+    },
+	"git.signOffset": 2,
+	"tslint.autoFixOnSave": true,
+	"python.autoComplete.addBrackets": true,
+	"python.jediEnabled": false,
+	"html.format.enable": true,
+	"coc.source.around.enable": false,
+	"coc.source.buffer.enable": false,
+	"coc.preferences.hoverTarget": "preview",
+	"coc.preferences.enableFloatHighlight": true,
+	"coc.preferences.snippetStatusText": "Ⓢ ",
+	"coc.preferences.extensionUpdateCheck": "weekly",
+	"suggest.detailMaxLength": 60,
+	"suggest.noselect": true,
+	"suggest.enablePreselect": false,
+	"suggest.triggerAfterInsertEnter": false,
+	"suggest.timeout": 5000,
+	"suggest.enablePreview": true,
+	"suggest.floatEnable": true,
+	"suggest.detailField": "preview",
+	"suggest.triggerCompletionWait": 100,
+	"git.enableGlobalStatus": false,
+	"git.enableGutters": false,
+	"diagnostic.enableSign": true,
+	"suggest.echodocSupport": true
+}
+
